@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="portfolio.css" />
+    <script
+      src="https://kit.fontawesome.com/3cd9bba362.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Rohan's portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar  -->
+      <nav class="section header">
+        <ul class="header">
+          <li>{ Rohan's portfolio }</li>
+          <li class="hideMenu"><a href="#home">Home</a></li>
+          <li class="hideMenu"><a href="#about">About</a></li>
+          <li class="hideMenu"><a href="#skills">Skills</a></li>
+          <li class="hideMenu"><a href="#contact-us">Contact Us</a></li>
+          <li>
+            <svg
+              class="hamburger"
+              onclick="showNavbar()"
+              xmlns="http://www.w3.org/2000/svg"
+              height="35px"
+              viewBox="0 -960 960 960"
+              width="45px"
+              fill="#5f6368"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              />
+            </svg>
+          </li>
+        </ul>
+        <ul class="sidebar">
+          <svg
+            onclick="hideNavbar()"
+            class="closeNav"
+            xmlns="http://www.w3.org/2000/svg"
+            height="35px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#5f6368"
+          >
+            <path
+              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+            />
+          </svg>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+      </nav>
+      <!-- Home Section -->
+      <div class="section home" id="home">
+        <div class="home-container">
+          <div class="profile">
+            <img src="Photos/Cropedfile.png" alt="profile-image" />
+          </div>
+          <div class="description">
+            <p>Hi there!, I'm <span>Rohan choudhary</span></p>
+            <p>A Frontend Web Devloper</p>
+            <div class="social-media">
+              <fieldset>
+                <legend>Social Media links</legend>
+                <ul>
+                  <li>
+                    <a href="https://github.com/krohan010" target="_blank"
+                      ><i class="fa-brands fa-github"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="" target="_blank"
+                      ><i class="fa-brands fa-facebook"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://wa.me/7703880050" target="_blank"
+                      ><i class="fa-brands fa-whatsapp"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/rohanchoudhary9652/"
+                      target="_blank"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/rohan-choudhary-1088881a7/"
+                      target="_blank"
+                      ><i class="fa-brands fa-linkedin"></i
+                    ></a>
+                  </li>
+                </ul>
+              </fieldset>
+            </div>
+            <div class="buttons">
+              <div class="resume">
+                <i class="fa-solid fa-file-arrow-down"></i>
+                <button>
+                  <a href="Resume/RESUME.pdf" target="_blank">Resume</a>
+                </button>
+              </div>
+              <div class="email">
+                <i class="fa-regular fa-envelope"></i>
+                <a href="mailto:choudharyrohan010@gmail.com" target="_blank"
+                  >Email</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About Section -->
+      <div class="section about" id="about">
+        <div class="about-container">
+          <div class="heading">
+            <p>About MySelf</p>
+          </div>
+          <div class="about-content">
+            <div class="left">
+              <p>
+                Hii,<br />
+                I am Rohan choudhary, A frontend web developer. I did complete
+                my Computer Operative Programming Assistant (COPA) course from
+                Mohyal Educational Research Institute of Technology in 2022. I
+                have been working in same institute since August 2022. Currently
+                I am pursuing BCA from IGNOU University as well as working in
+                Merit institute.
+              </p>
+            </div>
+            <div class="right">
+              <img src="Photos/programmer1.png" alt="about section image" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills Section -->
+      <div class="section skills" id="skills">
+        <div class="skill-container">
+          <p id="heading" class="item">My Skills</p>
+          <div class="skills-icon item">
+            <img src="icons/html-5.png" alt="HTML-icon" />
+            <div class="hover-box">
+              <p class="heading">HTML</p>
+              <p class="skill-knowledge">80%</p>
+            </div>
+          </div>
+          <div class="skills-icon item" id="skills">
+            <img src="icons/css.png" alt="CSS-icon" />
+            <div class="hover-box">
+              <p class="heading">CSS</p>
+              <p class="skill-knowledge">80%</p>
+            </div>
+          </div>
+          <div class="skills-icon item">
+            <img src="icons/js.png" alt="JavaScript-icon" />
+            <div class="hover-box">
+              <p class="heading">JavaScript</p>
+              <p class="skill-knowledge">80%</p>
+            </div>
+          </div>
+          <div class="skills-icon item">
+            <img src="icons/mysql.png" alt="Myql-icon" />
+            <div class="hover-box">
+              <p class="heading">MySql</p>
+              <p class="skill-knowledge">80%</p>
+            </div>
+          </div>
+          <div class="skills-icon item">
+            <img src="icons/php.png" alt="PHP-icon" />
+            <div class="hover-box">
+              <p class="heading">PHP</p>
+              <p class="skill-knowledge">80%</p>
+            </div>
+          </div>
+          <div class="skills-icon item">
+            <img src="icons/ms-excel.png" alt="MS-Excel_icon" />
+            <div class="hover-box">
+              <p class="heading">MS-Excel</p>
+              <p class="skill-knowledge">80%</p>
+            </div>
+          </div>
+          <div class="skills-icon item">
+            <img src="icons/ms-word.png" alt="MS-Word_icon" />
+            <div class="hover-box">
+              <p class="heading">Ms-Word</p>
+              <p class="skill-knowledge">80%</p>
+            </div>
+          </div>
+          <div class="skills-icon item">
+            <img src="icons/ms-powerpoint.png" alt="MS-Powerpoint-icon" />
+            <div class="hover-box">
+              <p class="heading">MS-Powerpoint</p>
+              <p class="skill-knowledge">80%</p>
+            </div>
+          </div>
+          <div class="skills-icon item">
+            <img src="icons/ms-access.png" alt="Ms-Access_icon" />
+            <div class="hover-box">
+              <p class="heading">Ms-Access</p>
+              <p class="skill-knowledge">80%</p>
+            </div>
+          </div>
+          <div class="skills-icon item">
+            <img src="icons/c.png" alt="C-icon" />
+            <div class="hover-box">
+              <p class="heading">C</p>
+              <p class="skill-knowledge">80%</p>
+            </div>
+          </div>
+          <div class="skills-icon item">
+            <img src="icons/c++.png" alt="C++-icon" />
+            <div class="hover-box">
+              <p class="heading">C++</p>
+              <p class="skill-knowledge">80%</p>
+            </div>
+          </div>
+          <div class="skills-icon item">
+            <img src="icons/java.png" alt="Java-icon" />
+            <div class="hover-box">
+              <p class="heading">Java</p>
+              <p class="skill-knowledge">80%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Us section  -->
+      <div class="section contact" id="contact-us">
+        <div class="contact-container">
+          <div class="left">
+            <form action="https://formsubmit.co/hostwithrohan2k1@gmail.com" method="POST">
+              <input
+                type="text"
+                id="name"
+                class="name" name="name"
+                placeholder="Enter your name"
+              />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="email"
+                placeholder="Enter your Email Id"
+              />
+              <textarea
+                name="message"
+                id="msg"
+                cols="1"
+                rows="5"
+                placeholder="Write your Message here..."
+              ></textarea>
+              <input type="submit" value="Submit" id="btn" />
+              <input type="reset" value="Reset" />
+            </form>
+          </div>
+          <div class="right">
+            <h2>Get In Touch</h2>
+            <div class="email">
+              <p>Email Id :</p>
+              <span
+                ><a href="mailto:hostwithrohan2k1@gmail.com" target="_blank"
+                  >hostwithrohan2k1@gmail.com</a
+                ></span
+              >
+            </div>
+            <div class="phone">
+              <p>Phone No :</p>
+              <span><a href="tel:7703880050">+91 7703880050</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class="section footer">
+        <p>Made by me ~ Rohan choudhary</p>
+      </div>
+    </div>
+
+    <script src="portfolio.js"></script>
+  </body>
+</html>
